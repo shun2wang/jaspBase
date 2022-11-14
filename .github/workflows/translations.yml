@@ -15,6 +15,6 @@ jobs:
       R_REPO: jaspbase
 
     steps:
-#      - uses: jasp-stats/jasp-actions/wlcLock@newTranslation
+#      - uses: shun2wang/jasp-actions/translations@newTranslation
 
-      - uses: jasp-stats/jasp-actions/translations@newTranslation
+      - uses: shun2wang/jasp-actions/translations@newTranslation
