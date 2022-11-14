@@ -1,11 +1,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: jaspBase 0.15\n"
-"POT-Creation-Date: 2022-10-06 09:38\n"
+"POT-Creation-Date: 2022-11-14 05:04\n"
 "PO-Revision-Date: 2022-11-10 20:50+0000\n"
 "Last-Translator: Tomasz Misiuro <tomaszmisiuro@gmail.com>\n"
-"Language-Team: Polish <https://hosted.weblate.org/projects/jasp/jaspbase/pl/>"
-"\n"
+"Language-Team: Polish <https://hosted.weblate.org/projects/jasp/jaspbase/pl/"
+">\n"
 "Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -14,77 +14,11 @@ msgstr ""
 "|| n%100>=20) ? 1 : 2;\n"
 "X-Generator: Weblate 4.15-dev\n"
 
-msgid "registerFonts was called but resultsFont does not exist!"
-msgstr "registerFonts został wywołany, ale resultsFont nie istnieje!"
-
 msgid "<em>Note.</em>"
 msgstr "<em>Uwaga.</em>"
 
-msgid "Invalid type supplied to .fromRCPP, expected character"
-msgstr "Nieprawidłowy typ dostarczony do .fromRCPP; oczekiwano typ znakowy"
-
-msgid "Unknown RCPP object"
-msgstr "Nieznany obiekt RCPP"
-
-msgid "Could not locate"
-msgstr "Nie można zlokalizować"
-
-msgid "in environment (.fromRCPP)"
-msgstr "w środowisku (.fromRCPP)"
-
-msgid ".getSeedJASP was called with an incorrect argument."
-msgstr ".getSeedJASP został wywołany z nieprawidłowym argumentem."
-
-msgid "The argument options should be the options list from QML."
-msgstr "Opcje argumentów powinny być listą opcji z QML."
-
-msgid ""
-"Ensure that the SetSeed{} QML component is present in the QML file for this "
-"analysis."
-msgstr ""
-"Upewnij się, że komponent SetSeed{} Komponent QML jest obecny w pliku QML "
-"dla tej analizy."
-
-msgid ""
-"Loading plot snapshot from a different session with possible side effects or "
-"errors."
-msgstr ""
-"Ładowanie wykresów z innej sesji może być obarczone efektami ubocznymi lub "
-"błędami."
-
-msgid "no jasp plot found"
-msgstr "nie znaleziono wykresu jasp"
-
-msgid "no plot object found"
-msgstr "nie znaleziono wykresu"
-
 msgid "no plot object was found"
 msgstr "nie znaleziono wykresu"
-
-msgid "This function should not be used. In for reference."
-msgstr "Ta funkcja nie powinna być używana."
-
-msgid "Non-valid type argument provided"
-msgstr "Podano nieprawidłowy argument typu"
-
-#, fuzzy
-msgid "Unknown check type provided: \""
-msgstr "Podano nieznany typ kontroli: \""
-
-msgid "\""
-msgstr "\""
-
-msgid "Missing required argument(s): \""
-msgstr "Brak wymaganego argumentu(ów): \""
-
-msgid ","
-msgstr ","
-
-msgid "Each grouping variable must have a level specified"
-msgstr "Każda zmienna grupująca musi mieć określony poziom"
-
-msgid "the modelterms list must contain the named item `components`"
-msgstr ""
 
 msgid "The following problem(s) occurred while running the analysis:"
 msgstr ""
@@ -176,50 +110,65 @@ msgstr ""
 msgid "Could not find message for class %1$s and type %2$s"
 msgstr ""
 
-msgid "Missing required replacement(s): \""
-msgstr ""
+#~ msgid "registerFonts was called but resultsFont does not exist!"
+#~ msgstr "registerFonts został wywołany, ale resultsFont nie istnieje!"
 
-msgid "could not clean value"
-msgstr ""
+#~ msgid "Invalid type supplied to .fromRCPP, expected character"
+#~ msgstr "Nieprawidłowy typ dostarczony do .fromRCPP; oczekiwano typ znakowy"
 
-msgid "failed to create moduleLibrary!"
-msgstr ""
+#~ msgid "Unknown RCPP object"
+#~ msgstr "Nieznany obiekt RCPP"
 
-msgid "Failed to recreate lock file of module!"
-msgstr ""
+#~ msgid "Could not locate"
+#~ msgstr "Nie można zlokalizować"
 
-msgid "Failed to remove temporary module libary at %s"
-msgstr ""
+#~ msgid "in environment (.fromRCPP)"
+#~ msgstr "w środowisku (.fromRCPP)"
 
-msgid "Your module is missing a 'DESCRIPTION' file!"
-msgstr ""
+#~ msgid ".getSeedJASP was called with an incorrect argument."
+#~ msgstr ".getSeedJASP został wywołany z nieprawidłowym argumentem."
 
-msgid "Your module is missing 'inst/Description.qml'!"
-msgstr ""
+#~ msgid "The argument options should be the options list from QML."
+#~ msgstr "Opcje argumentów powinny być listą opcji z QML."
 
-msgid "Your module is missing an 'R' directory!"
-msgstr ""
+#~ msgid ""
+#~ "Ensure that the SetSeed{} QML component is present in the QML file for "
+#~ "this analysis."
+#~ msgstr ""
+#~ "Upewnij się, że komponent SetSeed{} Komponent QML jest obecny w pliku QML "
+#~ "dla tej analizy."
 
-msgid "Your module is missing the 'inst/qml' directory!"
-msgstr ""
+#~ msgid ""
+#~ "Loading plot snapshot from a different session with possible side effects "
+#~ "or errors."
+#~ msgstr ""
+#~ "Ładowanie wykresów z innej sesji może być obarczone efektami ubocznymi "
+#~ "lub błędami."
 
-msgid "Can't find file '"
-msgstr ""
+#~ msgid "no jasp plot found"
+#~ msgstr "nie znaleziono wykresu jasp"
 
-msgid "' in archive '"
-msgstr ""
+#~ msgid "no plot object found"
+#~ msgstr "nie znaleziono wykresu"
 
-msgid "'"
-msgstr ""
+#~ msgid "This function should not be used. In for reference."
+#~ msgstr "Ta funkcja nie powinna być używana."
 
-msgid "Your module contains no"
-msgstr ""
+#~ msgid "Non-valid type argument provided"
+#~ msgstr "Podano nieprawidłowy argument typu"
 
-msgid "file"
-msgstr ""
+#, fuzzy
+#~ msgid "Unknown check type provided: \""
+#~ msgstr "Podano nieznany typ kontroli: \""
 
-msgid "A cache is supposed to be at '%s' but it does not exist!"
-msgstr ""
+#~ msgid "\""
+#~ msgstr "\""
 
-msgid "Expected not-null but got null"
-msgstr ""
+#~ msgid "Missing required argument(s): \""
+#~ msgstr "Brak wymaganego argumentu(ów): \""
+
+#~ msgid ","
+#~ msgstr ","
+
+#~ msgid "Each grouping variable must have a level specified"
+#~ msgstr "Każda zmienna grupująca musi mieć określony poziom"
