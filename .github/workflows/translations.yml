@@ -15,6 +15,6 @@ jobs:
       R_REPO: jaspbase
 
     steps:
-      - uses: jasp-stats/jasp-actions/wlcLock@master
+#      - uses: jasp-stats/jasp-actions/wlcLock@diffBranches
 
-      - uses: jasp-stats/jasp-actions/translations@master
+      - uses: jasp-stats/jasp-actions/translations@diffBranches
