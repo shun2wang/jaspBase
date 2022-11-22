@@ -38,3 +38,4 @@ Encoding: UTF-8
 LinkingTo: Rcpp
 RcppModules: jaspResults
 NeedsCompilation: yes
+Config/potools/style: explict
