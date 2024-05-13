@@ -50,7 +50,7 @@ else
 
 			echo 'Cloning c++ dependency jaspColumnEncoder'
 			rm -rf 'inst/include/jaspColumnEncoder'
-			git clone --depth 1 https://github.com/jasp-stats/jaspColumnEncoder.git inst/include/jaspColumnEncoder
+			git clone --depth 1 -b fixBuildGcc13 https://github.com/shun2wang/jaspColumnEncoder.git inst/include/jaspColumnEncoder
 			DOWNLOAD_SUCCESS=0
 
 		fi
@@ -67,7 +67,7 @@ else
 			rm -rf 'inst/include/jaspColumnEncoder'
 			mkdir -p 'inst/include/jaspColumnEncoder'
 
-			curl --silent --location https://api.github.com/repos/jasp-stats/jaspColumnEncoder/tarball | tar xz --strip=1 --directory inst/include/jaspColumnEncoder
+			curl --silent --location https://api.github.com/repos/shun2wang/jaspColumnEncoder/tarball/d6ec4aef9ef882b84f2430fc3f38d596117c23c1 | tar xz --strip=1 --directory inst/include/jaspColumnEncoder
 			DOWNLOAD_SUCCESS=$?
 
 		fi
@@ -83,7 +83,7 @@ else
 			rm -rf 'inst/include/jaspColumnEncoder'
 			mkdir -p 'inst/include/jaspColumnEncoder'
 
-			wget --quiet --output-document=- https://api.github.com/repos/jasp-stats/jaspColumnEncoder/tarball | tar xz --strip=1 --directory inst/include/jaspColumnEncoder
+			wget --quiet --output-document=- https://api.github.com/repos/shun2wang/jaspColumnEncoder/tarball/d6ec4aef9ef882b84f2430fc3f38d596117c23c1 | tar xz --strip=1 --directory inst/include/jaspColumnEncoder
 			DOWNLOAD_SUCCESS=$?
 
 		fi
