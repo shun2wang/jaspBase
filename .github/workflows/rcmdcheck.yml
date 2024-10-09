@@ -28,6 +28,12 @@ jobs:
           r-version: ${{ matrix.r }}
           use-public-rspm: true
 
+      - name: Install system dependencies on macOS
+        if: runner.os == 'macOS'
+        run: |
+          brew install libjpeg # required by jpeg packages
+        shell: bash
+        
       - uses: r-lib/actions/setup-r-dependencies@v2
         with:
           extra-packages: rcmdcheck
