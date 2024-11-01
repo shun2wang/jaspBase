@@ -16,7 +16,6 @@ Imports:
   grid,
   gridExtra,
   gridGraphics,
-  jaspGraphs,
   jsonlite,
   lifecycle,
   methods,
@@ -35,7 +34,7 @@ Imports:
   systemfonts,
   withr
 Remotes:
-  jasp-stats/jaspGraphs
+  shun2wang/jaspGraphs@addRotateAxis
 RoxygenNote: 7.3.2
 Roxygen: list(markdown = TRUE)
 Encoding: UTF-8
