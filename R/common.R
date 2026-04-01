@@ -898,6 +898,7 @@ saveImage <- function(plotName, format, height, width)
           height = insize[2],
           bg = "transparent"
         )
+        grDevices::dev.off()
 
       } else if (format == "png") {
 
@@ -929,7 +930,7 @@ saveImage <- function(plotName, format, height, width)
       if (inherits(plt, "recordedplot")) {
         .redrawPlot(plt)
       } else if (inherits(plt, c("gtable", "ggMatrixplot", "jaspGraphs"))) {
-        gridExtra::grid.arrange(plt, newpage = FALSE)
+        gridExtra::grid.arrange(plt)
       } else if (inherits(plt, "gTree")) {
         grid::grid.draw(plt)
       } else {
