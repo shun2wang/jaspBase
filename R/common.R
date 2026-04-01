@@ -929,7 +929,7 @@ saveImage <- function(plotName, format, height, width)
       if (inherits(plt, "recordedplot")) {
         .redrawPlot(plt)
       } else if (inherits(plt, c("gtable", "ggMatrixplot", "jaspGraphs"))) {
-        gridExtra::grid.arrange(plt)
+        gridExtra::grid.arrange(plt, newpage = FALSE)
       } else if (inherits(plt, "gTree")) {
         grid::grid.draw(plt)
       } else {
